@@ -4,7 +4,7 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-data = pd.read_csv('fruit_types.csv')  # load our data
+data = pd.read_csv('data/fruit_types.csv')  # load our data
 
 encoder = preprocessing.LabelEncoder() # creating labelEncoder
 

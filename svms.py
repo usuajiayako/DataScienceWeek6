@@ -8,7 +8,7 @@ from sklearn import metrics, svm
 
 
 # Prepare the data
-data = pd.read_csv('fruit_types.csv')
+data = pd.read_csv('data/fruit_types.csv')
 X = data.iloc[:,2:5]
 Y = data.iloc[:,0]
 

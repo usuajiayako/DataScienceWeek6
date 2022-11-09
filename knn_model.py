@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn import metrics
 from math import sqrt
 
-data = pd.read_csv('fruit_types.csv')  # load our data
+data = pd.read_csv('data/fruit_types.csv')  # load our data
 
 encoder = preprocessing.LabelEncoder() # creating labelEncoder
 
